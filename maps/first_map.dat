@@ -875,7 +875,7 @@ teletransporter{
   y = 344,
   width = 16,
   height = 16,
-  destination_map = "first_map",
+  destination_map = "urness_map",
 }
 
 tile{
