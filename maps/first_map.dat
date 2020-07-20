@@ -859,13 +859,13 @@ destructible{
 }
 
 teletransporter{
-  name = "Exit-to-Saul",
+  name = "Exit-to-Saul-Room",
   layer = 0,
   x = 160,
   y = 344,
   width = 16,
   height = 16,
-  destination_map = "first_map",
+  destination_map = "Saul's Room",
 }
 
 teletransporter{
