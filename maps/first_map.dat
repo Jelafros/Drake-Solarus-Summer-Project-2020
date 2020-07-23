@@ -484,16 +484,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
-  y = 88,
-  width = 48,
-  height = 16,
-  pattern = "down",
-  tileset = "oceanset_outside",
-}
-
-tile{
-  layer = 0,
   x = 88,
   y = 48,
   width = 8,
@@ -818,6 +808,16 @@ tile{
   pattern = "86_3",
 }
 
+tile{
+  layer = 0,
+  x = 40,
+  y = 88,
+  width = 48,
+  height = 16,
+  pattern = "down",
+  tileset = "oceanset_outside",
+}
+
 destination{
   name = "wake_up",
   layer = 0,
@@ -841,10 +841,11 @@ teletransporter{
   name = "Exit-to-Katja",
   layer = 0,
   x = 96,
-  y = 344,
+  y = 336,
   width = 16,
   height = 16,
-  destination_map = "first_map",
+  destination_map = "katja_room",
+  destination = "katjaRoomEnterance",
 }
 
 destructible{
@@ -862,7 +863,7 @@ teletransporter{
   name = "Exit-to-Saul-Room",
   layer = 0,
   x = 160,
-  y = 344,
+  y = 336,
   width = 16,
   height = 16,
   destination_map = "Saul's Room",
@@ -876,6 +877,14 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "urness_map",
+}
+
+destination{
+  name = "katjaRoomExit",
+  layer = 0,
+  x = 104,
+  y = 333,
+  direction = 1,
 }
 
 tile{

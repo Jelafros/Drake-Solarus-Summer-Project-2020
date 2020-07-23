@@ -1,0 +1,669 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "oceanset_inside",
+  music = "eduardo/cave",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 160,
+  pattern = "shallow_water",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 80,
+  width = 32,
+  height = 24,
+  pattern = "126",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "34_5",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "36_5",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 8,
+  width = 224,
+  height = 32,
+  pattern = "35_5",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 192,
+  width = 32,
+  height = 32,
+  pattern = "38_5",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 40,
+  width = 32,
+  height = 160,
+  pattern = "37_6",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 40,
+  width = 32,
+  height = 160,
+  pattern = "41_5",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 192,
+  width = 224,
+  height = 32,
+  pattern = "39_6",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 40,
+  width = 80,
+  height = 48,
+  pattern = "20_18",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "52_7",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 8,
+  width = 8,
+  height = 32,
+  pattern = "51_7",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 8,
+  width = 8,
+  height = 32,
+  pattern = "50_5",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 32,
+  width = 32,
+  height = 8,
+  pattern = "86",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 32,
+  width = 16,
+  height = 8,
+  pattern = "86",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 40,
+  width = 8,
+  height = 40,
+  pattern = "98",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "86_2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "86",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 80,
+  width = 24,
+  height = 8,
+  pattern = "86",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 80,
+  width = 16,
+  height = 32,
+  pattern = "118",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 80,
+  width = 8,
+  height = 32,
+  pattern = "116",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 80,
+  width = 8,
+  height = 32,
+  pattern = "117",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "86",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "shallow_water_edge_5",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "shallow_water_edge_6",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 104,
+  width = 32,
+  height = 8,
+  pattern = "shallow_water_edge",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 32,
+  width = 144,
+  height = 8,
+  pattern = "shallow_water_edge",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 40,
+  width = 8,
+  height = 40,
+  pattern = "98",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 80,
+  width = 8,
+  height = 112,
+  pattern = "shallow_water_edge_2",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 192,
+  width = 224,
+  height = 8,
+  pattern = "shallow_water_edge_4",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 160,
+  pattern = "shallow_water_edge_3",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 192,
+  width = 32,
+  height = 32,
+  pattern = "40_6",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "wave_2",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "132_17",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "132_13",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "132_20",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "132_15",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "132_24",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "132_14",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "132_21",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "132_18",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "132_22",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "132_19",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "132_16",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "132_23",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "137_9",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "137_2",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "137",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "137_5",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "137_6",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "137_7",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "137_5",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "137_7",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 104,
+  width = 64,
+  height = 8,
+  pattern = "shallow_water_edge",
+  tileset = "oceanset_outside",
+}
+
+chest{
+  name = "kChest",
+  layer = 0,
+  x = 112,
+  y = 85,
+  treasure_name = "gem",
+  treasure_variant = 4,
+  treasure_savegame_variable = "katjaChest",
+  sprite = "chests/chest_purple",
+}
+
+teletransporter{
+  name = "treasure-2",
+  layer = 0,
+  x = 232,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "katja_room2",
+  destination = "katja_room2-endDoor",
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 53,
+  sprite = "destructibles/vase",
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 69,
+  treasure_name = "gem",
+  sprite = "destructibles/vase",
+}
+
+teletransporter{
+  name = "backToStart",
+  layer = 0,
+  x = 200,
+  y = 48,
+  width = 16,
+  height = 16,
+  destination_map = "first_map",
+  destination = "katjaRoomExitConnect",
+  sprite = "teletransporters/teletransporter_blue",
+}
+
+destination{
+  name = "treasureRoomEnter",
+  layer = 0,
+  x = 240,
+  y = 53,
+  direction = 3,
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "137_11",
+  tileset = "oceanset_outside",
+}
+
