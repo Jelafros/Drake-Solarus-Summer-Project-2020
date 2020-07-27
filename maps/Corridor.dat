@@ -266,15 +266,6 @@ tile{
 
 teletransporter{
   layer = 0,
-  x = 24,
-  y = 216,
-  width = 16,
-  height = 16,
-  destination_map = "Corridor",
-}
-
-teletransporter{
-  layer = 0,
   x = 176,
   y = 32,
   width = 16,
@@ -290,6 +281,43 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "Saul's Room",
+}
+
+door{
+  layer = 0,
+  x = 48,
+  y = 208,
+  direction = 3,
+  sprite = "doors/door_small_key",
+  opening_method = "interaction_if_item",
+  opening_condition = "money_bag",
+}
+
+teletransporter{
+  layer = 0,
+  x = 24,
+  y = 208,
+  width = 16,
+  height = 16,
+  destination_map = "LowerFloor",
+}
+
+block{
+  layer = 0,
+  x = 32,
+  y = 205,
+  sprite = "blocks/block_brown",
+  pushable = false,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 32,
+  y = 237,
+  sprite = "blocks/block_brown",
+  pushable = false,
+  pullable = false,
 }
 
 tile{

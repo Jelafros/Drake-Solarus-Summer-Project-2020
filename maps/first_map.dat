@@ -866,7 +866,7 @@ teletransporter{
   y = 336,
   width = 16,
   height = 16,
-  destination_map = "Saul's Room",
+  destination_map = "SaulRoom",
 }
 
 teletransporter{

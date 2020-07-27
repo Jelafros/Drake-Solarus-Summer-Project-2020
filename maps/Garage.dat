@@ -1,0 +1,912 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "castle",
+  music = "eduardo/lunarius",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_4",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_purple_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_purple_6",
+  tileset = "house",
+}
+
+door{
+  layer = 0,
+  x = 24,
+  y = 72,
+  direction = 3,
+  sprite = "doors/door_boss_key",
+  opening_method = "interaction_if_item",
+  opening_condition = "heart",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 72,
+  width = 16,
+  height = 16,
+  destination_map = "Garage",
+}
+
+block{
+  layer = 0,
+  x = 8,
+  y = 101,
+  sprite = "blocks/block_purple",
+  pushable = false,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 8,
+  y = 69,
+  sprite = "blocks/block_purple",
+  pushable = false,
+  pullable = false,
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 85,
+  direction = 0,
+  breed = "skelfos",
+}
+
+enemy{
+  layer = 0,
+  x = 96,
+  y = 85,
+  direction = 0,
+  breed = "skelfos",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 85,
+  direction = 0,
+  breed = "skelfos",
+}
+
+enemy{
+  layer = 0,
+  x = 144,
+  y = 85,
+  direction = 0,
+  breed = "skelfos",
+}
+
+enemy{
+  layer = 0,
+  x = 168,
+  y = 85,
+  direction = 0,
+  breed = "skelfos",
+}
+
+enemy{
+  layer = 0,
+  x = 192,
+  y = 85,
+  direction = 0,
+  breed = "skullbat",
+}
+
+enemy{
+  layer = 0,
+  x = 216,
+  y = 85,
+  direction = 0,
+  breed = "skullbat",
+}
+
+enemy{
+  layer = 0,
+  x = 240,
+  y = 85,
+  direction = 0,
+  breed = "skullbat",
+}
+

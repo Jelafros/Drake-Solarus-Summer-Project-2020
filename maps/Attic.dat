@@ -72,7 +72,7 @@ chest{
   layer = 0,
   x = 240,
   y = 213,
-  treasure_name = "heart",
+  treasure_name = "gem",
   sprite = "chests/chest_purple",
 }
 
@@ -111,22 +111,6 @@ enemy{
 enemy{
   layer = 0,
   x = 120,
-  y = 117,
-  direction = 0,
-  breed = "slime_cyan",
-}
-
-enemy{
-  layer = 0,
-  x = 168,
-  y = 117,
-  direction = 0,
-  breed = "slime_cyan",
-}
-
-enemy{
-  layer = 0,
-  x = 120,
   y = 141,
   direction = 0,
   breed = "slime_red",
@@ -146,22 +130,6 @@ enemy{
   y = 165,
   direction = 0,
   breed = "slime_red",
-}
-
-enemy{
-  layer = 0,
-  x = 48,
-  y = 125,
-  direction = 0,
-  breed = "slime_egg",
-}
-
-enemy{
-  layer = 0,
-  x = 256,
-  y = 125,
-  direction = 0,
-  breed = "slime_egg",
 }
 
 wall{
@@ -454,7 +422,33 @@ chest{
   layer = 0,
   x = 256,
   y = 53,
-  treasure_name = "sword",
+  treasure_name = "heart",
   sprite = "chests/chest_purple",
+}
+
+crystal_block{
+  layer = 0,
+  x = 344,
+  y = 48,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 344,
+  y = 48,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+door{
+  layer = 0,
+  x = 176,
+  y = 208,
+  direction = 3,
+  sprite = "",
 }
 
