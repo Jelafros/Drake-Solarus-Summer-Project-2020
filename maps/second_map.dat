@@ -941,15 +941,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 32,
-  y = 176,
-  width = 272,
-  height = 168,
-  pattern = "6_2",
-}
-
-tile{
-  layer = 0,
   x = 24,
   y = 344,
   width = 288,
@@ -1047,6 +1038,15 @@ tile{
   pattern = "86_3",
 }
 
+tile{
+  layer = 0,
+  x = 32,
+  y = 176,
+  width = 272,
+  height = 168,
+  pattern = "6_2",
+}
+
 teletransporter{
   layer = 0,
   x = 184,
@@ -1087,6 +1087,24 @@ teletransporter{
   transition = "immediate",
   destination_map = "first_map",
   destination = "_same",
+}
+
+npc{
+  name = "Grandma_(second_floor)",
+  layer = 0,
+  x = 168,
+  y = 269,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/woman_1d",
+}
+
+destructible{
+  layer = 0,
+  x = 152,
+  y = 221,
+  sprite = "destructibles/vase",
+  weight = -1,
 }
 
 tile{
