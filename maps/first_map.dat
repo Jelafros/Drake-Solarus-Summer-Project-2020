@@ -680,7 +680,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 88,
+  x = 56,
   y = 336,
   width = 8,
   height = 32,
@@ -689,7 +689,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
+  x = 64,
   y = 336,
   width = 16,
   height = 32,
@@ -698,7 +698,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 112,
+  x = 80,
   y = 336,
   width = 8,
   height = 32,
@@ -747,7 +747,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 152,
+  x = 112,
   y = 336,
   width = 8,
   height = 32,
@@ -756,7 +756,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 160,
+  x = 120,
   y = 336,
   width = 16,
   height = 32,
@@ -765,7 +765,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 176,
+  x = 136,
   y = 336,
   width = 8,
   height = 32,
@@ -774,7 +774,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 216,
+  x = 176,
   y = 336,
   width = 8,
   height = 32,
@@ -783,7 +783,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 224,
+  x = 184,
   y = 336,
   width = 16,
   height = 32,
@@ -792,7 +792,44 @@ tile{
 
 tile{
   layer = 0,
+  x = 200,
+  y = 336,
+  width = 8,
+  height = 32,
+  pattern = "51_4",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 88,
+  width = 48,
+  height = 16,
+  pattern = "down",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 336,
+  width = 8,
+  height = 32,
+  pattern = "50_4",
+}
+
+tile{
+  layer = 0,
   x = 240,
+  y = 336,
+  width = 16,
+  height = 32,
+  pattern = "52_3",
+}
+
+tile{
+  layer = 0,
+  x = 256,
   y = 336,
   width = 8,
   height = 32,
@@ -806,16 +843,6 @@ tile{
   width = 272,
   height = 8,
   pattern = "86_3",
-}
-
-tile{
-  layer = 0,
-  x = 40,
-  y = 88,
-  width = 48,
-  height = 16,
-  pattern = "down",
-  tileset = "oceanset_outside",
 }
 
 destination{
@@ -840,8 +867,8 @@ teletransporter{
 teletransporter{
   name = "Exit-to-Katja",
   layer = 0,
-  x = 96,
-  y = 336,
+  x = 64,
+  y = 344,
   width = 16,
   height = 16,
   destination_map = "katja_room",
@@ -862,17 +889,17 @@ destructible{
 teletransporter{
   name = "Exit-to-Saul-Room",
   layer = 0,
-  x = 160,
-  y = 336,
+  x = 120,
+  y = 344,
   width = 16,
   height = 16,
-  destination_map = "SaulRoom",
+  destination_map = "Saul's Room",
 }
 
 teletransporter{
   name = "Exit-to-Prof.-Urness",
   layer = 0,
-  x = 224,
+  x = 184,
   y = 344,
   width = 16,
   height = 16,
@@ -882,7 +909,36 @@ teletransporter{
 destination{
   name = "katjaRoomExit",
   layer = 0,
-  x = 104,
+  x = 72,
+  y = 333,
+  direction = 1,
+}
+
+npc{
+  name = "Grandma",
+  layer = 0,
+  x = 168,
+  y = 269,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/woman_1d",
+  behavior = "dialog#Grandma 1",
+}
+
+teletransporter{
+  name = "Exit-to-Prof.-Urness_2",
+  layer = 0,
+  x = 240,
+  y = 344,
+  width = 16,
+  height = 16,
+  destination_map = "Jake's challenge",
+}
+
+destination{
+  name = "jakeRoomExit",
+  layer = 0,
+  x = 248,
   y = 333,
   direction = 1,
 }
