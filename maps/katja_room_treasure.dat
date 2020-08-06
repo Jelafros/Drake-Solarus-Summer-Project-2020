@@ -645,7 +645,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "first_map",
-  destination = "katjaRoomExitConnect",
+  destination = "katjaRoomExit",
   sprite = "teletransporters/teletransporter_blue",
 }
 
