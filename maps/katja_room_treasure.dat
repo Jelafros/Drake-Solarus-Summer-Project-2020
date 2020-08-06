@@ -657,6 +657,15 @@ destination{
   direction = 3,
 }
 
+teletransporter{
+  layer = 0,
+  x = 232,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "Jake's challenge",
+}
+
 tile{
   layer = 1,
   x = 56,

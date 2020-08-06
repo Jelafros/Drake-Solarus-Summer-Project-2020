@@ -377,7 +377,7 @@ chest{
   layer = 0,
   x = 160,
   y = 125,
-  treasure_name = "sword",
+  treasure_name = "money_bag",
   sprite = "chests/chest_green",
 }
 
@@ -388,7 +388,7 @@ teletransporter{
   y = 208,
   width = 16,
   height = 16,
-  destination_map = "urness_map",
+  destination_map = "first_map",
 }
 
 tile{

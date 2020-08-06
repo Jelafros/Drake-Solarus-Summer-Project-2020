@@ -280,7 +280,7 @@ teletransporter{
   y = 8,
   width = 16,
   height = 16,
-  destination_map = "Saul's Room",
+  destination_map = "SaulRoom",
 }
 
 door{
@@ -290,7 +290,7 @@ door{
   direction = 3,
   sprite = "doors/door_small_key",
   opening_method = "interaction_if_item",
-  opening_condition = "money_bag",
+  opening_condition = "tunic",
 }
 
 teletransporter{

@@ -494,11 +494,11 @@ door{
   name = "exitdoor",
   layer = 0,
   x = 152,
-  y = 208,
+  y = 192,
   direction = 3,
   sprite = "doors/door_boss_key",
-  opening_condition = "key",
-  opening_condition_consumed = true,
+  opening_method = "interaction_if_item",
+  opening_condition = "money_bag",
 }
 
 teletransporter{
@@ -507,8 +507,7 @@ teletransporter{
   y = 208,
   width = 16,
   height = 16,
-  destination_map = "first_map",
-  destination = "jakeRoomExit",
+  destination_map = "Saul's Closet",
 }
 
 enemy{

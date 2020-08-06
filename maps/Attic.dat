@@ -64,7 +64,7 @@ chest{
   layer = 0,
   x = 48,
   y = 213,
-  treasure_name = "gem",
+  treasure_name = "heart",
   sprite = "chests/chest_purple",
 }
 
@@ -80,7 +80,7 @@ chest{
   layer = 0,
   x = 40,
   y = 53,
-  treasure_name = "money_bag",
+  treasure_name = "sword",
   sprite = "chests/chest_purple",
 }
 
@@ -89,7 +89,7 @@ enemy{
   x = 120,
   y = 93,
   direction = 0,
-  breed = "slime_purple",
+  breed = "slime_cyan",
 }
 
 enemy{
@@ -97,7 +97,7 @@ enemy{
   x = 144,
   y = 69,
   direction = 0,
-  breed = "slime_purple",
+  breed = "slime_cyan",
 }
 
 enemy{
@@ -105,7 +105,7 @@ enemy{
   x = 168,
   y = 93,
   direction = 0,
-  breed = "slime_purple",
+  breed = "slime_cyan",
 }
 
 enemy{
@@ -422,7 +422,7 @@ chest{
   layer = 0,
   x = 256,
   y = 53,
-  treasure_name = "heart",
+  treasure_name = "tunic",
   sprite = "chests/chest_purple",
 }
 
