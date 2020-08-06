@@ -1,0 +1,35 @@
+dialog{
+  id = "Grandma 1",
+  text = [[
+Good morning, my grandchild.
+
+
+I think you are finally old enough;
+it is time you take up your
+grandfather's sword!
+Alas, it is no simple task to claim
+such a powerful weapon.  It is
+stored away in the attic -
+the door to which is bounded by
+four locks.
+
+And as you know, the attic is also
+overrun with a great monster.
+You must defeat this devilry to
+claim the sword.
+
+
+Oh, and by the way... the four keys
+that open the locks to the attic
+reside seperately, one in each
+of the four rooms you see
+before you.
+
+May the fates smile upon you, my
+grandchild!  This quest will be your
+coming of age before you go out
+into the vast world beyond this
+small cottage.
+]],
+}
+
