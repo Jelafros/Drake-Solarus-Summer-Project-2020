@@ -1,17 +1,17 @@
 --[[ 
-Lua script for the boss enemy
-Affectionately nicknamed "Truff Stuff"
+Lua script for a boss enemy
+affectionately nicknamed "Truff Stuff"
 
-This is a simple variant of the boss with 
-no special attacks, only basic movement mechanics
+This is a simpler version of a scrapped boss.
+Initially intended to have a charge attack, this version instead
+opts to simply chase the player and summon minions as a distraction
 
-Instead this version has a random chance of spawning 
-an enemy when attack based on distance to pillars in 
-the room and some luck.
+This boss is tailored to function with the boss lite map and won't
+work in any other enviorment. 
 
-Author: Katja M.
+Author: Katja Mathesius
 Date Created: 4 - Aug - 2020
-Last Modified: 6 - Aug - 2020 
+Last Modified: 13 - Aug - 2020 
 --]]
 
 
@@ -29,7 +29,7 @@ local bird = 200
 local snake = 500
 local fish = 500
 local ard = 300
-local octo = 200
+local octo = 199
 local dist = 200
 
 
@@ -80,7 +80,7 @@ tIce["breed"] = "iceball"
 function enemy:on_created()
 
   -- Defines the properties of this enemy.
-  self:set_life(20)
+  self:set_life(21)
   self:set_damage(4)
   self:create_sprite("enemies/boss_lite")
   self:set_size(48, 64)
@@ -135,34 +135,34 @@ function enemy:on_hurt()
   -- the shortest distance, then runs the corresponding spawn command
   if dist == bird then
   
-  --Pterobats (1 in 2 chance of spawning after each attack)
+  -- Pterobats (1 in 2 chance of spawning after each attack)
     if math.random(2) == 1 then
       sol.audio.play_sound("wrong2")
       map:create_enemy(tBat)
     end
   elseif dist == snake then
-  --Chameleons (1 in 4 chance of spawning after each attack)
+  -- Chameleons (1 in 4 chance of spawning after each attack)
     if math.random(4) == 1 then
       sol.audio.play_sound("wrong2")
       map:create_enemy(tLiz)
     end
 
   elseif dist == ard then
-  --Goblins (1 in 3 chance of spawning after each attack)
+  -- Goblins (1 in 3 chance of spawning after each attack)
     if math.random(3) == 1 then
       sol.audio.play_sound("wrong2")
       map:create_enemy(tGob)
     end
 
   elseif dist == octo then
-  --Cyan Slime (1 in 3 chance of spawning after each attack)
+  -- Cyan Slime (1 in 3 chance of spawning after each attack)
     if math.random(3) == 1 then
       sol.audio.play_sound("wrong2")
       map:create_enemy(tSli)
     end
 
   elseif dist == fish then
-  --Iceball (1 in 3 chance of spawning after each attack)
+  -- Iceball (1 in 3 chance of spawning after each attack)
     if math.random(3) == 1 then
       sol.audio.play_sound("wrong2")
       map:create_enemy(tIce)
@@ -186,8 +186,10 @@ end
 
 -- Runs when the boss ends his death animation:
 -- Clears any existing enemies from the screen upon the boss's death,
--- plays a sound affect to slightly boost the effect of the despawn
--- and stops the music to emphasize show the boss is gone
+-- plays a sound affect to slightly boost the effect of the despawn,
+-- stops the music to emphasize show the boss is gone, and disables
+-- the blockades
+
 function enemy:on_dead()
 
   map:remove_entities("bat")
@@ -198,6 +200,13 @@ function enemy:on_dead()
   sol.audio.play_sound("thunder_far")
   
   sol.audio.stop_music()
-  
 
+  map:get_entity("r1Bottom"):set_enabled(false)
+  map:get_entity("r2Bottom"):set_enabled(false)
+  map:get_entity("r1Top"):set_enabled(false)
+  map:get_entity("r2Top"):set_enabled(false)
+  map:get_entity("bossNearExit"):set_enabled(true)
+  map:get_entity("bossFarExit"):set_enabled(true)
+  
+  
 end
