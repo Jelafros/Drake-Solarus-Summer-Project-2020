@@ -22,3 +22,15 @@ animation{
     { x = 192, y = 0, frame_width = 48, frame_height = 80, origin_x = 24, origin_y = 77, num_frames = 2 },
   },
 }
+animation{
+  name = "immobilized",
+  src_image = "enemies/boss_lite.png",
+  frame_delay = 70,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 320, y = 160, frame_width = 80, frame_height = 80, origin_x = 40, origin_y = 77, num_frames = 2 },
+    { x = 288, y = 80, frame_width = 48, frame_height = 80, origin_x = 24, origin_y = 77, num_frames = 4 },
+    { x = 320, y = 240, frame_width = 80, frame_height = 80, origin_x = 40, origin_y = 77, num_frames = 2 },
+    { x = 288, y = 0, frame_width = 48, frame_height = 80, origin_x = 24, origin_y = 77, num_frames = 4 },
+  },
+}
