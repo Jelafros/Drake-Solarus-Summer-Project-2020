@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "oceanset_inside",
-  music = "eduardo/fairy",
+  music = "eduardo/mountains",
 }
 
 tile{
@@ -1041,7 +1041,7 @@ teletransporter{
   y = 344,
   width = 16,
   height = 16,
-  destination_map = "SaulRoom",
+  destination_map = "Saul's Room",
 }
 
 teletransporter{
@@ -1070,7 +1070,6 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/woman_1d",
-  behavior = "dialog#Grandma 1",
 }
 
 teletransporter{
@@ -1087,6 +1086,22 @@ destination{
   name = "jakeRoomExit",
   layer = 0,
   x = 248,
+  y = 333,
+  direction = 1,
+}
+
+destination{
+  name = "urnessRoomExit",
+  layer = 0,
+  x = 192,
+  y = 333,
+  direction = 1,
+}
+
+destination{
+  name = "saulRoomExit",
+  layer = 0,
+  x = 128,
   y = 333,
   direction = 1,
 }
