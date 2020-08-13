@@ -1,5 +1,28 @@
 dialog{
-  id = "Grandma 1",
+  id = "chestDialog",
+  text = [[
+You found your grandpa's
+sword!
+
+...wait a minute...
+this isn't a sword, this is
+jerky in the shape of a sword!
+well at least it tastes good!
+\[Max life increased by 1\]
+]],
+}
+
+dialog{
+  id = "grandma.questOver",
+  text = [[
+Good work grandchild!
+You've found the jerky
+sword!
+]],
+}
+
+dialog{
+  id = "grandma.questStart",
   text = [[
 Good morning, my grandchild.
 
@@ -20,7 +43,7 @@ claim the sword.
 
 
 Oh, and by the way... the four keys
-that open the locks to the attic
+to open the locks to the attic
 reside seperately, one in each
 of the four rooms you see
 before you.
