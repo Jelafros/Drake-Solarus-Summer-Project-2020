@@ -1,0 +1,429 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 240,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "oceanset_inside",
+  music = "eduardo/mountains",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 192,
+  width = 32,
+  height = 32,
+  pattern = "40",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 32,
+  height = 32,
+  pattern = "34",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 16,
+  width = 32,
+  height = 32,
+  pattern = "aasf",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 16,
+  width = 144,
+  height = 32,
+  pattern = "35",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 48,
+  width = 32,
+  height = 144,
+  pattern = "41",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 48,
+  width = 160,
+  height = 160,
+  pattern = "10",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 192,
+  width = 144,
+  height = 32,
+  pattern = "39",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 192,
+  width = 32,
+  height = 32,
+  pattern = "38",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 48,
+  width = 32,
+  height = 144,
+  pattern = "37",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "82",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "82",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "96",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "95",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 16,
+  width = 16,
+  height = 24,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 184,
+  width = 16,
+  height = 32,
+  pattern = "52_3",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 184,
+  width = 8,
+  height = 32,
+  pattern = "51_4",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 184,
+  width = 8,
+  height = 32,
+  pattern = "50_4",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 120,
+  width = 24,
+  height = 8,
+  pattern = "6_2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 104,
+  width = 24,
+  height = 24,
+  pattern = "70",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 56,
+  width = 48,
+  height = 8,
+  pattern = "6_2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 48,
+  width = 48,
+  height = 16,
+  pattern = "68",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 120,
+  width = 32,
+  height = 8,
+  pattern = "6_2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 104,
+  width = 8,
+  height = 24,
+  pattern = "76",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 104,
+  width = 8,
+  height = 24,
+  pattern = "78",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 104,
+  width = 16,
+  height = 24,
+  pattern = "77",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 176,
+  width = 24,
+  height = 16,
+  pattern = "223",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "94",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_3",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_4",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_2",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_3",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "mushroom",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_4",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_4",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_4",
+}
+
+chest{
+  name = "grandpaSwordChest",
+  layer = 0,
+  x = 120,
+  y = 69,
+  treasure_name = "sword",
+  treasure_savegame_variable = "grandpaSword",
+  sprite = "chests/chest_brown",
+}
+
+destination{
+  name = "treasureEnterance",
+  layer = 0,
+  x = 120,
+  y = 181,
+  direction = 1,
+}
+
+teletransporter{
+  name = "treasureExit",
+  layer = 0,
+  x = 112,
+  y = 184,
+  width = 16,
+  height = 16,
+  destination_map = "boss_room_lite",
+  destination = "bossFarEnterance",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "97",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 40,
+  width = 48,
+  height = 8,
+  pattern = "69",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 88,
+  width = 24,
+  height = 16,
+  pattern = "71",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "89",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 32,
+  width = 8,
+  height = 16,
+  pattern = "88",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 168,
+  width = 24,
+  height = 8,
+  pattern = "224",
+  tileset = "oceanset_outside",
+}
+
