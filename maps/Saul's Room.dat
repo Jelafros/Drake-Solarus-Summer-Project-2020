@@ -1,0 +1,1365 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "house",
+  music = "eduardo/boss",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_0",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_3",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_0",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_0",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_green_1",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_1",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_0",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_3",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_0",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_0",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_1",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_1",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_3",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_green_3",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_0",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_0",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_6",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_green_1",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_1",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_1",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_green_1",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_6",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_1",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_6",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_6",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_1",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_6",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_1",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_1",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_6",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_1",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_6",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_1",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_6",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_6",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_green_0",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_up_green_2",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_corner_up_green_3",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "ground_wood_mosaic_big_1",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "ground_wood_mosaic_big_1",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 128,
+  width = 32,
+  height = 16,
+  pattern = "bed_green_center",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 112,
+  width = 32,
+  height = 16,
+  pattern = "bed_green_up",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 144,
+  width = 32,
+  height = 16,
+  pattern = "bed_green_down",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 160,
+  width = 32,
+  height = 8,
+  pattern = "bed_end",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_middle",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_4",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_left",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_5",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_6",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_7",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_right",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_0",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_3",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_1",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_center_books_b",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_center_books_a",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_books_4",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_books_0",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_books_right",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_books_7",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_books_6_b",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_books_6_a",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_books_5",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_books_left",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_books_middle_a",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "bookshelf_books_middle_b",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 144,
+  width = 32,
+  height = 32,
+  pattern = "221",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 128,
+  width = 40,
+  height = 32,
+  pattern = "98",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 152,
+  width = 16,
+  height = 24,
+  pattern = "81",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 88,
+  width = 8,
+  height = 24,
+  pattern = "271",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 208,
+  width = 8,
+  height = 24,
+  pattern = "269",
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "214_2",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "215_2",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "",
+}
+
+teletransporter{
+  layer = 0,
+  x = 8,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "Corridor",
+}
+
+block{
+  layer = 0,
+  x = 104,
+  y = 61,
+  sprite = "blocks/block_brown",
+  pushable = true,
+  pullable = false,
+}
+
+jumper{
+  layer = 0,
+  x = 120,
+  y = 136,
+  width = 32,
+  height = 8,
+  direction = 6,
+  jump_length = 40,
+}
+
+teletransporter{
+  name = "Exit-To-Closet",
+  layer = 0,
+  x = 96,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "Saul's Closet",
+}
+
+jumper{
+  layer = 0,
+  x = 56,
+  y = 136,
+  width = 32,
+  height = 8,
+  direction = 6,
+  jump_length = 40,
+}
+
+chest{
+  layer = 0,
+  x = 16,
+  y = 77,
+  treasure_name = "key_saul",
+  sprite = "chests/chest_green",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 16,
+  destination_map = "first_map",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 8,
+  y = 29,
+  direction = 1,
+  default = true,
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 200,
+  width = 32,
+  height = 16,
+  pattern = "216_3",
+  tileset = "oceanset_outside",
+}
+
