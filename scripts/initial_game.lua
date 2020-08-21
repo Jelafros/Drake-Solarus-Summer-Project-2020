@@ -22,7 +22,16 @@ function initial_game:initialize_new_savegame(game)
   game:set_ability("lift", 1)
   game:set_ability("sword", 1)
 
+
+  -- Initializes the overarching variables for the game
   game:set_value("questComplete", false)
+  game:set_value("kBlock", true)
+  game:set_value("sBlock", true)
+  game:set_value("jBlock", true)
+  game:set_value("uBlock", true)
+  game:set_value("bossDefeated", false)
+
+
   sol.audio.preload_sounds()
 end
 
