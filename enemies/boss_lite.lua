@@ -11,7 +11,7 @@ work in any other enviorment.
 
 Author: Katja Mathesius
 Date Created: 4 - Aug - 2020
-Last Modified: 13 - Aug - 2020 
+Last Modified: 21 - Aug - 2020 
 --]]
 
 
@@ -38,22 +38,22 @@ tBat = {}
 tBat["name"] = "bat"
 tBat["layer"] = 0
 tBat["x"] = 352
-tBat["y"] = 352
+tBat["y"] = 144
 tBat["direction"] = 3
 tBat["breed"] = "pterobat"
 
 tLiz = {}
 tLiz["name"] = "lizard"
 tLiz["layer"] = 0
-tLiz["x"] = 352
-tLiz["y"] = 144
+tLiz["x"] = 128
+tLiz["y"] = 352
 tLiz["direction"] = 3
 tLiz["breed"] = "chameleon"
 
 tSli = {}
 tSli["name"] = "slime"
 tSli["layer"] = 0
-tSli["x"] = 128
+tSli["x"] = 352
 tSli["y"] = 352
 tSli["direction"] = 3
 tSli["breed"] = "slime_cyan"
@@ -64,7 +64,7 @@ tGob["layer"] = 0
 tGob["x"] = 240
 tGob["y"] = 272
 tGob["direction"] = 3
-tGob["breed"] = "goblin_green"
+tGob["breed"] = "shamablin_fire"
 
 tIce = {}
 tIce["name"] = "ice"
@@ -80,7 +80,7 @@ tIce["breed"] = "iceball"
 function enemy:on_created()
 
   -- Defines the properties of this enemy.
-  self:set_life(21)
+  self:set_life(24)
   self:set_damage(4)
   self:create_sprite("enemies/boss_lite")
   self:set_size(48, 64)
@@ -141,14 +141,14 @@ function enemy:on_hurt()
       map:create_enemy(tBat)
     end
   elseif dist == snake then
-  -- Chameleons (1 in 4 chance of spawning after each attack)
-    if math.random(4) == 1 then
+  -- Chameleons (1 in 2 chance of spawning after each attack)
+    if math.random(3) == 1 then
       sol.audio.play_sound("wrong2")
       map:create_enemy(tLiz)
     end
 
   elseif dist == ard then
-  -- Goblins (1 in 3 chance of spawning after each attack)
+  -- Shamablins (1 in 3 chance of spawning after each attack)
     if math.random(3) == 1 then
       sol.audio.play_sound("wrong2")
       map:create_enemy(tGob)
@@ -162,10 +162,23 @@ function enemy:on_hurt()
     end
 
   elseif dist == fish then
-  -- Iceball (1 in 3 chance of spawning after each attack)
+  -- Iceballs (1 in 3 chance of spawning after each attack)
     if math.random(3) == 1 then
       sol.audio.play_sound("wrong2")
-      map:create_enemy(tIce)
+      sol.audio.play_sound("wrong")
+      sol.timer.start(map, 1000, function()
+        sol.audio.play_sound("wrong")
+        map:create_enemy(tIce)
+      end)
+      sol.timer.start(map, 1000, function()
+        sol.audio.play_sound("wrong")
+        map:create_enemy(tIce)
+      end)
+      sol.timer.start(map, 1000, function()
+        sol.audio.play_sound("wrong")
+        map:create_enemy(tIce)
+      end)
+
     end
   
   end
