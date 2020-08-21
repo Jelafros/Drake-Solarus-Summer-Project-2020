@@ -602,8 +602,8 @@ dynamic_tile{
 dynamic_tile{
   name = "statueSnake",
   layer = 1,
-  x = 368,
-  y = 80,
+  x = 80,
+  y = 344,
   width = 32,
   height = 32,
   pattern = "statue_7",
@@ -622,7 +622,7 @@ dynamic_tile{
 dynamic_tile{
   name = "statueOcto",
   layer = 1,
-  x = 80,
+  x = 368,
   y = 336,
   width = 32,
   height = 32,
@@ -633,7 +633,7 @@ dynamic_tile{
   name = "statueBird",
   layer = 1,
   x = 368,
-  y = 344,
+  y = 80,
   width = 32,
   height = 32,
   pattern = "statue_3",
