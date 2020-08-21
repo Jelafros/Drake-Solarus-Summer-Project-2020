@@ -207,6 +207,8 @@ function enemy:on_dead()
   map:get_entity("r2Top"):set_enabled(false)
   map:get_entity("bossNearExit"):set_enabled(true)
   map:get_entity("bossFarExit"):set_enabled(true)
+
+  game:set_value("bossDefeated", true)
   
   
 end
