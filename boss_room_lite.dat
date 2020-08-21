@@ -1,0 +1,661 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 480,
+  height = 480,
+  min_layer = -1,
+  max_layer = 2,
+  tileset = "oceanset_inside",
+  music = "eduardo/boss",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 32,
+  height = 32,
+  pattern = "34",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 16,
+  width = 32,
+  height = 32,
+  pattern = "aasf",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 432,
+  width = 32,
+  height = 32,
+  pattern = "40",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 432,
+  width = 32,
+  height = 32,
+  pattern = "38",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 48,
+  width = 32,
+  height = 384,
+  pattern = "37",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 432,
+  width = 384,
+  height = 32,
+  pattern = "39",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 16,
+  width = 384,
+  height = 32,
+  pattern = "35",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 48,
+  width = 32,
+  height = 384,
+  pattern = "41",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 48,
+  width = 384,
+  height = 384,
+  pattern = "11",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 48,
+  width = 384,
+  height = 384,
+  pattern = "6_3",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 344,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_4",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 240,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_3",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "mushroom",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_2",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 272,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_3",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 264,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_2",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_2",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "mushroom",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_3",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_2",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_3",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "mushroom",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_4",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_3",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "mushroom",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_3",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_4",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_4",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "mushroom_3",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 424,
+  width = 16,
+  height = 32,
+  pattern = "52_3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 424,
+  width = 8,
+  height = 32,
+  pattern = "50_4",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 424,
+  width = 8,
+  height = 32,
+  pattern = "51_4",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 24,
+  width = 16,
+  height = 32,
+  pattern = "52_4",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 24,
+  width = 8,
+  height = 32,
+  pattern = "51_3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 24,
+  width = 8,
+  height = 32,
+  pattern = "50_3",
+}
+
+destination{
+  name = "bossEnterance",
+  layer = 0,
+  x = 240,
+  y = 421,
+  direction = 1,
+}
+
+dynamic_tile{
+  name = "pillarFish",
+  layer = 0,
+  x = 80,
+  y = 112,
+  width = 32,
+  height = 24,
+  pattern = "126",
+}
+
+dynamic_tile{
+  name = "pillarSnake",
+  layer = 0,
+  x = 368,
+  y = 112,
+  width = 32,
+  height = 24,
+  pattern = "126",
+}
+
+dynamic_tile{
+  name = "pillarArd",
+  layer = 0,
+  x = 224,
+  y = 224,
+  width = 32,
+  height = 24,
+  pattern = "126",
+}
+
+dynamic_tile{
+  name = "pillarOcto",
+  layer = 0,
+  x = 80,
+  y = 376,
+  width = 32,
+  height = 24,
+  pattern = "126",
+}
+
+dynamic_tile{
+  name = "pillarBird",
+  layer = 0,
+  x = 368,
+  y = 376,
+  width = 32,
+  height = 24,
+  pattern = "126",
+}
+
+enemy{
+  name = "boss",
+  layer = 0,
+  x = 240,
+  y = 325,
+  direction = 3,
+  breed = "boss_lite",
+  savegame_variable = "bossDead",
+}
+
+teletransporter{
+  name = "bossNearExit",
+  layer = 0,
+  x = 232,
+  y = 424,
+  width = 16,
+  height = 16,
+  destination_map = "before_boss",
+  destination = "bossDoor",
+}
+
+teletransporter{
+  name = "bossFarExit",
+  layer = 0,
+  x = 232,
+  y = 40,
+  width = 16,
+  height = 16,
+  destination_map = "treasure_room",
+  destination = "treasureEnterance",
+}
+
+destination{
+  name = "bossFarEnterance",
+  layer = 0,
+  x = 240,
+  y = 69,
+  direction = 1,
+}
+
+destructible{
+  name = "bV1",
+  layer = 0,
+  x = 200,
+  y = 429,
+  treasure_name = "heart",
+  sprite = "destructibles/vase",
+  destruction_sound = "fire_ball2",
+}
+
+destructible{
+  name = "bV2",
+  layer = 0,
+  x = 184,
+  y = 429,
+  sprite = "destructibles/vase",
+  destruction_sound = "fire_ball2",
+}
+
+destructible{
+  layer = 0,
+  x = 288,
+  y = 61,
+  treasure_name = "heart",
+  treasure_savegame_variable = "bV3",
+  sprite = "destructibles/vase",
+  destruction_sound = "fire_ball2",
+}
+
+destructible{
+  layer = 0,
+  x = 304,
+  y = 61,
+  treasure_name = "heart",
+  treasure_savegame_variable = "bV3",
+  sprite = "destructibles/vase",
+  destruction_sound = "fire_ball2",
+}
+
+destructible{
+  layer = 0,
+  x = 280,
+  y = 429,
+  treasure_savegame_variable = "bV3",
+  sprite = "destructibles/vase",
+  destruction_sound = "fire_ball2",
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 221,
+  treasure_savegame_variable = "bV3",
+  sprite = "destructibles/vase",
+  destruction_sound = "fire_ball2",
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 237,
+  treasure_savegame_variable = "bV3",
+  sprite = "destructibles/vase",
+  destruction_sound = "fire_ball2",
+}
+
+dynamic_tile{
+  name = "r2Bottom",
+  layer = 0,
+  x = 224,
+  y = 48,
+  width = 32,
+  height = 16,
+  pattern = "135",
+}
+
+dynamic_tile{
+  name = "r1Bottom",
+  layer = 0,
+  x = 224,
+  y = 416,
+  width = 32,
+  height = 16,
+  pattern = "135_6",
+}
+
+sensor{
+  name = "startBoss",
+  layer = 0,
+  x = 24,
+  y = 381,
+  width = 448,
+  height = 16,
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 88,
+  width = 32,
+  height = 24,
+  pattern = "127",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 88,
+  width = 32,
+  height = 24,
+  pattern = "127",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 352,
+  width = 32,
+  height = 24,
+  pattern = "127",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 352,
+  width = 32,
+  height = 24,
+  pattern = "127",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 200,
+  width = 32,
+  height = 24,
+  pattern = "127",
+}
+
+dynamic_tile{
+  name = "statueFish",
+  layer = 1,
+  x = 80,
+  y = 80,
+  width = 32,
+  height = 32,
+  pattern = "statue_6",
+}
+
+dynamic_tile{
+  name = "statueSnake",
+  layer = 1,
+  x = 80,
+  y = 344,
+  width = 32,
+  height = 32,
+  pattern = "statue_7",
+}
+
+dynamic_tile{
+  name = "statueArd",
+  layer = 1,
+  x = 224,
+  y = 184,
+  width = 32,
+  height = 32,
+  pattern = "statue_2",
+}
+
+dynamic_tile{
+  name = "statueOcto",
+  layer = 1,
+  x = 368,
+  y = 336,
+  width = 32,
+  height = 32,
+  pattern = "statue_4",
+}
+
+dynamic_tile{
+  name = "statueBird",
+  layer = 1,
+  x = 368,
+  y = 80,
+  width = 32,
+  height = 32,
+  pattern = "statue_3",
+}
+
+dynamic_tile{
+  name = "r2Top",
+  layer = 1,
+  x = 224,
+  y = 32,
+  width = 32,
+  height = 16,
+  pattern = "135_2",
+}
+
+dynamic_tile{
+  name = "r1Top",
+  layer = 1,
+  x = 224,
+  y = 400,
+  width = 32,
+  height = 16,
+  pattern = "135_7",
+}
+
