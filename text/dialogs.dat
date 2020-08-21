@@ -15,9 +15,21 @@ well at least it tastes good!
 dialog{
   id = "grandma.questOver",
   text = [[
-Good work grandchild!
+Congratulations grandchild!
 You've found the jerky
 sword!
+Your quest is now complete.
+You are now ready to go into the
+world and face whatever dangers
+lie ahead.
+
+
+...That is if you can find a way
+out of this house.
+
+It's probably just your aging
+grandmother's poor vision, but 
+I can't seem to find the door.
 ]],
 }
 
