@@ -7,7 +7,7 @@ the events upon opening the chest.
    
 Author: Katja Mathesius
 Date created: 7 - Aug - 2020
-Last modified: 13 - Aug - 202
+Last modified: 20 - Aug - 202
 --]]
 
 local map = ...
@@ -31,18 +31,31 @@ function map:on_opening_transition_finished()
 
 end
 
-
+-- Calls the victory function upon opening the chest
 function grandpaSwordChest:on_opened()
 
     hero:start_treasure("sword",victory())
 end
 
+
+-- Function designed to run when the chest is opened 
 function victory()
+    
+    -- Changes the state of the questComplete variable to true
     game:set_value("questComplete", true)
+    
+    -- Plays the dungeon finished music and stops it once it plays one cycle of it
     sol.audio.play_music("eduardo/dungeon_finished", false)
+
+    -- Starts the dialog for when the chest is opened
     game:start_dialog("chestDialog", function()
+
+      -- Adds a new heart to the player and fills up their health to max
       game:add_max_life(4)
-      game:add_life(4)
+      game:set_life(game:get_max_life())
+    
+      -- Plays the heart container sound affect, then waits till it's played through
+      -- fully to begin playing the main song for the room
       sol.audio.play_sound("heart_container")
       sol.timer.start(map, 5000, function()
         sol.audio.play_music("eduardo/mountains")

@@ -36,7 +36,7 @@ function kChest:on_opened()
 
   backToStart:set_enabled(true)
   sol.audio.play_sound("chest_appears")
-  hero:start_treasure("gem",4,katjaChest)
+  hero:start_treasure("key_katja",1,katjaChest)
 
 
 end

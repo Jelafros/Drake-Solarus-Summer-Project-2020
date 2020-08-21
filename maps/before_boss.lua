@@ -1,11 +1,8 @@
--- Lua script of map before_boss.
--- This script is executed every time the hero enters this map.
+--[[
+Lua file for before_boss
 
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
+Author: Katja Mathesius
+--]]
 
 local map = ...
 local game = map:get_game()
@@ -13,14 +10,15 @@ local game = map:get_game()
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
 
+
+  -- Checks if the quest has been completed, and sets the music for the room accordingly
+  -- If the game has been beat: Play music, If not: Don't play music
   if game:get_value("questComplete")
   then
       sol.audio.play_music("eduardo/mountains")
   else
       sol.audio.stop_music()
   end
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
 end
 
 -- Event called after the opening transition effect of the map,

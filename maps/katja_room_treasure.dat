@@ -605,7 +605,7 @@ chest{
   layer = 0,
   x = 112,
   y = 85,
-  treasure_name = "gem",
+  treasure_name = "key_katja",
   treasure_variant = 4,
   treasure_savegame_variable = "katjaChest",
   sprite = "chests/chest_purple",

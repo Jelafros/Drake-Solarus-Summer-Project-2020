@@ -1,11 +1,21 @@
--- Lua script of map katja_room.
--- This script is executed every time the hero enters this map.
+--[[
+This is the Lua script for the map "katja_room"
 
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
+Key for the variable names:
+"splash" - the particle affects when walls are raised/lowered
 
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
+
+"P" - Indicates it should be enabled when in the button is in the "pressed" state
+"U" - Indicates it should be enabled when in the button is in the "unpressed" state
+"R" - An object within Room 1 (that's state doesn't change by pressed/unpressed)
+
+"F" - Floor
+"E" - Edges
+"C" - Corners
+"S" - Switch
+
+Author: Katja Mathesius
+--]] 
 
 local map = ...
 local game = map:get_game()
@@ -13,6 +23,7 @@ local game = map:get_game()
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
 
+  --Sets the room to its initial state
   PF1:set_enabled(false)
   PC1:set_enabled(false)
   PC2:set_enabled(false)
@@ -35,8 +46,6 @@ function map:on_started()
   splash5:set_enabled(false)
   splash6:set_enabled(false)
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
 end
 
 -- Event called after the opening transition effect of the map,
@@ -45,8 +54,10 @@ function map:on_opening_transition_finished()
 
 end
 
+-- Activates when the corresponding button in the room is pressed
 function R1S1:on_activated()
 
+  --Sets the room to its "solved" state + plays the stone sounds affect
   sol.audio.play_sound("stone")
   PF1:set_enabled(true)
   PC1:set_enabled(true)
@@ -74,8 +85,10 @@ function R1S1:on_activated()
 
 end
 
+-- Activates when the corresponding button in the room is pressed
 function R1S2:on_activated()
 
+  --Sets the room to its "solved" state + plays the stone sounds affect
   sol.audio.play_sound("stone")
   PF1:set_enabled(true)
   PC1:set_enabled(true)

@@ -355,7 +355,7 @@ destination{
   name = "destination",
   layer = 0,
   x = 168,
-  y = 21,
+  y = 29,
   direction = 3,
 }
 
@@ -378,6 +378,7 @@ chest{
   x = 160,
   y = 125,
   treasure_name = "key_urness",
+  treasure_savegame_variable = "urnessChest",
   sprite = "chests/chest_green",
 }
 
@@ -389,6 +390,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "first_map",
+  destination = "urnessRoomExit",
 }
 
 tile{

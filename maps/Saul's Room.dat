@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "house",
-  music = "eduardo/boss",
+  music = "eduardo/fairy",
 }
 
 tile{
@@ -959,7 +959,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 48,
+  x = 40,
   y = 120,
   width = 8,
   height = 8,
@@ -968,7 +968,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 48,
+  x = 40,
   y = 112,
   width = 8,
   height = 8,
@@ -977,7 +977,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
+  x = 32,
   y = 112,
   width = 8,
   height = 8,
@@ -986,7 +986,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
+  x = 32,
   y = 120,
   width = 8,
   height = 8,
@@ -995,7 +995,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
+  x = 32,
   y = 128,
   width = 8,
   height = 8,
@@ -1004,7 +1004,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 48,
+  x = 40,
   y = 128,
   width = 8,
   height = 8,
@@ -1013,7 +1013,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 48,
   y = 128,
   width = 8,
   height = 8,
@@ -1022,7 +1022,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 48,
   y = 120,
   width = 8,
   height = 8,
@@ -1031,7 +1031,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 48,
   y = 112,
   width = 8,
   height = 8,
@@ -1040,7 +1040,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 48,
+  x = 40,
   y = 104,
   width = 8,
   height = 8,
@@ -1049,7 +1049,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
+  x = 32,
   y = 104,
   width = 8,
   height = 8,
@@ -1058,7 +1058,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 48,
   y = 104,
   width = 8,
   height = 8,
@@ -1245,38 +1245,22 @@ tile{
 
 tile{
   layer = 0,
-  x = 8,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "",
+  x = 56,
+  y = 136,
+  width = 32,
+  height = 8,
+  pattern = "21_2",
+  tileset = "oceanset_inside",
 }
 
 tile{
   layer = 0,
-  x = 24,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "",
-}
-
-tile{
-  layer = 0,
-  x = 8,
-  y = 192,
-  width = 16,
-  height = 16,
-  pattern = "",
-}
-
-tile{
-  layer = 0,
-  x = 24,
-  y = 192,
-  width = 16,
-  height = 16,
-  pattern = "",
+  x = 120,
+  y = 136,
+  width = 32,
+  height = 8,
+  pattern = "21_2",
+  tileset = "oceanset_inside",
 }
 
 teletransporter{
@@ -1329,9 +1313,10 @@ jumper{
 
 chest{
   layer = 0,
-  x = 16,
-  y = 77,
+  x = 24,
+  y = 85,
   treasure_name = "key_saul",
+  treasure_savegame_variable = "saulChest",
   sprite = "chests/chest_green",
 }
 
@@ -1342,6 +1327,8 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "first_map",
+  destination = "saulRoomExit",
+  sprite = "teletransporters/teletransporter_yellow",
 }
 
 destination{
